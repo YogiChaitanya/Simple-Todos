@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.todo-item {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 10px;
+}
+
+.delete-btn {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+
+  background-color: #ffffff;
+  color: #ff0b37;
+  cursor: pointer;
+  outline: none;
+
+  border: 1px solid #ff0b37;
+  border-radius: 8px;
+
+  margin-left: 10px;
+}
